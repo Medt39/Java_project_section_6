@@ -19,7 +19,7 @@ public class Employe extends Personne {
         compteur++;
     }
 
-    // méthode normale (non abstraite)
+    
     public double calculerSalaire() {
         return salaireBase;
     }
