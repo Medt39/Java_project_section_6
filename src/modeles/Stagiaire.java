@@ -16,6 +16,8 @@ public class Stagiaire extends Personne {
         this.ecole = ecole;
     }
 
+    public Stagiaire(){};
+
     @Override
     public void role() {
         System.out.print("JE SUIS UN STAGIAIRE : ");

@@ -14,6 +14,8 @@ public class Ingenieur extends Employe {
         this.primeResponsabilite = primeResponsabilite;
     }
 
+    public Ingenieur(){};
+
     @Override
     public void role() {
         System.out.print("JE SUIS UN INGENIEUR : ");
