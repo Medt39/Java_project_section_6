@@ -14,7 +14,7 @@ public abstract class Personne {
         this.cin = cin;
     }
 
-    public Personne(){};
+    public Personne(){}
 
     // methode abstraite
     public abstract void role();

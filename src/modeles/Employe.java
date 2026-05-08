@@ -6,7 +6,7 @@ public class Employe extends Personne {
     private int matricule;
     private double salaireBase;
 
-    public Employe(){};
+    public Employe(){}
 
     public Employe(String nom, String prenom,
                    String cin, double salaireBase) {
