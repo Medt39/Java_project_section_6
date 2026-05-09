@@ -14,7 +14,10 @@ public class Ingenieur extends Employe {
         this.primeResponsabilite = primeResponsabilite;
     }
 
-    public Ingenieur(){}
+    public Ingenieur() {
+        super();
+        this.primeResponsabilite = 0.0;
+    }
 
     @Override
     public void role() {

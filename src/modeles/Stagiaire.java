@@ -16,7 +16,11 @@ public class Stagiaire extends Personne {
         this.ecole = ecole;
     }
 
-    public Stagiaire(){}
+    public Stagiaire(){
+        super();
+        this.indemnite = 0.0;
+        this.ecole = "";
+    }
 
     @Override
     public void role() {

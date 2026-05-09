@@ -6,7 +6,11 @@ public class Employe extends Personne {
     private int matricule;
     private double salaireBase;
 
-    public Employe(){}
+    public Employe(){
+        super();
+        this.matricule = compteur++;
+        this.salaireBase = 0.0;
+    }
 
     public Employe(String nom, String prenom,
                    String cin, double salaireBase) {

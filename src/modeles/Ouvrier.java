@@ -16,7 +16,11 @@ public class Ouvrier extends Employe {
         this.tauxHoraire = tauxHoraire;
     }
 
-    public Ouvrier(){}
+    public Ouvrier(){
+        super();
+        this.heuresSupp = 0.0;
+        this.tauxHoraire = 0.0;
+    }
 
     @Override
     public void role() {
